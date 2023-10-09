@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+nav{
+    display: flex; /* Utiliza flexbox para centrar */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center;
+    background-color: #000;/* Color de fondo del navbar */
+    
+}
+
+nav img{
+    width: 100px;
+    margin-right: 20px;
+}
+
+
+li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.background-home {
+    background-image: url(../img/Crew_6_Desktop_9857f5c2f0.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-home-starlink{
+    background-image: url(../img/starlink.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-home-testingFlight{
+    background-image: url(../img/Testflight.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+ margin-top: 0;
+ color: #fff;
+}
+
+h1{
+    margin-top: 0;
+    color: #fff;
+}
+
+section{
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+
+/* contenedor de los titulos de dragon,falcon9,falconHeavy,starship */
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 450px;
+}
+
+.title h1{
+    font-size: 100px;
+    margin: auto;
+}
+
+section a {
+    text-decoration: none;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+    margin-left: 150px;
+
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #000;
+    text-transform: uppercase;
+}
+
+footer span{
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* estilos especificos falcon9.html */
+
+.background-falcon-9 {
+    background-image: url(../img/f9_feature.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* utilizo css grid para crear dos columnas */
+.background-black{
+    background-color: black;
+    height: 102vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.video-description{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
+.background-descripcion {
+    /* background-image: url(../img/f9.jpg); */
+    /* height: 100vh; */
+    /* background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.description-f9{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.parrafo-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+/* estilos especificos dragon.html */
+
+.background-dragon {
+    background-image: url(../img/dragon_feature.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* estilos especificos falcon-heavy.html */
+
+.background-falcon-heavy {
+    background-image: url(../img/fh_feature.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* estilos especificos star-ship.html */
+
+.background-star-ship {
+    background-image: url(../img/Starhip_website.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

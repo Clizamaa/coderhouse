@@ -5,17 +5,20 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+    /* width: 100%; */
 }
-nav{
-    display: flex; /* Utiliza flexbox para centrar */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center;
-    background-color: #000;/* Color de fondo del navbar */
+.navbar{
+    background-color: #000 !important ; /*Color de fondo del navbar*/
     
 }
 
-nav img{
-    width: 100px;
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar-brand > img{
+    width: 90px;
+    height: auto;
     margin-right: 20px;
 }
 
@@ -140,13 +143,6 @@ footer a{
     text-align: center;
 }
 
-.background-descripcion {
-    /* background-image: url(../img/f9.jpg); */
-    /* height: 100vh; */
-    /* background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
 
 .description-f9{
     display: flex;
@@ -190,3 +186,59 @@ footer a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media (max-width: 768px){
+
+    .title>h1{
+        font-size: 50px;
+        margin: auto;
+    }
+
+    .background-black{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    .video-description{
+        text-align: center;
+    }
+    
+    .video > iframe{
+        width: 90%;
+    }
+
+    .news{
+        margin-left: 34px;
+    }
+}
+@media (max-width: 480px){
+
+    .title>h1{
+        font-size: 50px;
+        margin: auto;
+    }
+
+    .background-black{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    .video-description{
+        text-align: center;
+    }
+    
+    .video > iframe{
+        width: 90%;
+    }
+
+    .news{
+        margin-left: 34px;
+    }
+
+
+
+
+}
+

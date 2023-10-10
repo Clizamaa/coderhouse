@@ -34,8 +34,8 @@ li a{
 }
 
 .background-home {
-    background-image: url(../img/Crew_6_Desktop_9857f5c2f0.jpg);
     height: 96vh;
+    background-image: url(../img/Crew_6_Desktop_9857f5c2f0.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,11 +119,17 @@ footer a{
 /* estilos especificos falcon9.html */
 
 .background-falcon-9 {
-    background-image: url(../img/f9_feature.jpg);
-    height: 96vh;
-    background-position: center center;
+    background: #000;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.8)
+    ),
+    url(../img/f9_feature.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 96vh;
 }
 
 /* utilizo css grid para crear dos columnas */
@@ -160,19 +166,31 @@ footer a{
 /* estilos especificos dragon.html */
 
 .background-dragon {
-    background-image: url(../img/dragon_feature.jpg);
-    height: 96vh;
-    background-position: center center;
+    background: #000;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.8)
+    ),
+    url(../img/dragon_feature.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 96vh;
 }
 
 /* estilos especificos falcon-heavy.html */
 
 .background-falcon-heavy {
-    background-image: url(../img/fh_feature.jpg);
     height: 96vh;
-    background-position: center center;
+    background: #000;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.8)
+    ),
+    url(../img/fh_feature.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -180,9 +198,15 @@ footer a{
 /* estilos especificos star-ship.html */
 
 .background-star-ship {
-    background-image: url(../img/Starhip_website.jpg);
     height: 96vh;
-    background-position: center center;
+    background: #000;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.8)
+    ),
+    url(../img/Starhip_website.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }

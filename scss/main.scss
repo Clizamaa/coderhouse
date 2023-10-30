@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+
+    // navbar
+  .navbar {
+    background-color: #000 !important ; /*Color de fondo del navbar*/
+
+    .navbar-brand {
+      img {
+        width: 90px;
+        height: auto;
+        margin-right: 20px;
+      }
+    }
+    .navbar-nav {
+      margin-left: auto;
+
+      li {
+        display: inline-block;
+        padding: 0 10px;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+// index.html
+
+main {
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+    .news {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 300px;
+      margin-left: 150px;
+
+      p {
+        margin-top: 0;
+        color: #fff;
+      }
+
+      h1 {
+        margin-top: 0;
+        color: #fff;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .background-home {
+    height: 96vh;
+    background-image: url(../img/Crew_6_Desktop_9857f5c2f0.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .background-home-starlink {
+    background-image: url(../img/starlink.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .background-home-testingFlight {
+    background-image: url(../img/Testflight.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #000;
+    text-transform: uppercase;
+
+    span{
+        color: #fff;
+    }
+
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+
+// falcon-9.html
+main{
+
+    section{
+        .title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 450px;
+
+            h1{
+                font-size: 100px;
+                margin: auto;
+                color: #fff;
+            }
+
+            p{
+                color: #fff;
+            }
+        }
+    }
+    .background-falcon-9 {
+        background: #000;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url(../img/f9_feature.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 96vh;
+    }
+
+    .background-black{
+        background-color: black;
+        height: 102vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+        .video-description{
+            text-align: center;
+
+            h1{
+                color: #fff;
+            }
+
+            p{
+                color: #fff;
+            }
+        }
+
+        .video{
+            text-align: center;
+        }
+    }
+}
+
+// dragon.html
+
+main{
+    .background-dragon {
+        background: #000;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url(../img/dragon_feature.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 96vh;
+    }
+}
+
+/* estilos especificos falcon-heavy.html */
+main{
+    .background-falcon-heavy {
+        height: 96vh;
+        background: #000;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url(../img/fh_feature.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+}
+
+/* estilos especificos star-ship.html */
+main{
+    .background-star-ship {
+        height: 96vh;
+        background: #000;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url(../img/Starhip_website.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

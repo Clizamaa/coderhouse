@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
+/* body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
-    /* width: 100%; */
-}
-.navbar{
-    background-color: #000 !important ; /*Color de fondo del navbar*/
+   
+} */
+/* .navbar{
+    background-color: #000 !important ; 
     
 }
 
@@ -70,22 +70,22 @@ section{
     display: flex;
     flex-direction: column-reverse;
    
-}
+} */
 
 /* contenedor de los titulos de dragon,falcon9,falconHeavy,starship */
-.title{
+/* .title{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 450px;
-}
+} */
 
-.title h1{
+/* .title h1{
     font-size: 100px;
     margin: auto;
-}
+} */
 
-section a {
+/* section a {
     text-decoration: none;
 }
 
@@ -95,10 +95,10 @@ section a {
     margin-bottom: 300px;
     margin-left: 150px;
 
-}
+} */
 
 
-footer{
+/* footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -114,11 +114,11 @@ footer span{
 footer a{
     color: #fff;
     text-decoration: none;
-}
+} */
 
 /* estilos especificos falcon9.html */
 
-.background-falcon-9 {
+/* .background-falcon-9 {
     background: #000;
     background: linear-gradient(
         rgba(0, 0, 0, 0.3),
@@ -130,27 +130,27 @@ footer a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 96vh;
-}
+} */
 
 /* utilizo css grid para crear dos columnas */
-.background-black{
+/* .background-black{
     background-color: black;
     height: 102vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-}
+} */
 
-.video-description{
+/* .video-description{
     text-align: center;
-}
+} */
 
-.video{
+/* .video{
     text-align: center;
-}
+} */
 
 
-.description-f9{
+/* .description-f9{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -161,7 +161,7 @@ footer a{
     display: flex;
     flex-direction: column;
     justify-content: left;
-}
+} */
 
 /* estilos especificos dragon.html */
 

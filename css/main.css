@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header .navbar {
+  background-color: #000 !important; /*Color de fondo del navbar*/
+}
+header .navbar .navbar-brand img {
+  width: 90px;
+  height: auto;
+  margin-right: 20px;
+}
+header .navbar .navbar-nav {
+  margin-left: auto;
+}
+header .navbar .navbar-nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+header .navbar .navbar-nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main section {
+  display: flex;
+  flex-direction: column-reverse;
+}
+main section .news {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 300px;
+  margin-left: 150px;
+}
+main section .news p {
+  margin-top: 0;
+  color: #fff;
+}
+main section .news h1 {
+  margin-top: 0;
+  color: #fff;
+}
+main section .news a {
+  text-decoration: none;
+}
+main .background-home {
+  height: 96vh;
+  background-image: url(../img/Crew_6_Desktop_9857f5c2f0.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .background-home-starlink {
+  background-image: url(../img/starlink.jpg);
+  height: 96vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .background-home-testingFlight {
+  background-image: url(../img/Testflight.jpg);
+  height: 96vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: #000;
+  text-transform: uppercase;
+}
+footer span {
+  color: #fff;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main section .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 450px;
+}
+main section .title h1 {
+  font-size: 100px;
+  margin: auto;
+  color: #fff;
+}
+main section .title p {
+  color: #fff;
+}
+main .background-falcon-9 {
+  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/f9_feature.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 96vh;
+}
+main .background-black {
+  background-color: black;
+  height: 102vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+main .background-black .video-description {
+  text-align: center;
+}
+main .background-black .video-description h1 {
+  color: #fff;
+}
+main .background-black .video-description p {
+  color: #fff;
+}
+main .background-black .video {
+  text-align: center;
+}
+
+main .background-dragon {
+  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/dragon_feature.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 96vh;
+}
+
+/* estilos especificos falcon-heavy.html */
+main .background-falcon-heavy {
+  height: 96vh;
+  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/fh_feature.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* estilos especificos star-ship.html */
+main .background-star-ship {
+  height: 96vh;
+  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/Starhip_website.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+@import '../abstracts/variables';
+// navbar
+header {
+    .navbar {
+      background-color: $negro !important ; /*Color de fondo del navbar*/
+  
+      .navbar-brand {
+        img {
+          width: 90px;
+          height: auto;
+          margin-right: 20px;
+        }
+      }
+      .navbar-nav {
+        margin-left: auto;
+  
+        li {
+          display: inline-block;
+          padding: 0 10px;
+          a {
+            text-decoration: none;
+            color: $blanco;
+          }
+        }
+      }
+    }
+  }

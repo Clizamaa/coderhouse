@@ -26,6 +26,15 @@ header .navbar .navbar-nav li a {
   color: #fff;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: #000;
+  text-transform: uppercase;
+}
+
 main section {
   display: flex;
   flex-direction: column-reverse;
@@ -50,39 +59,52 @@ main section .news a {
 main .background-home {
   height: 96vh;
   background-image: url(../img/Crew_6_Desktop_9857f5c2f0.jpg);
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 main .background-home-starlink {
-  background-image: url(../img/starlink.jpg);
   height: 96vh;
-  background-position: center center;
+  background-image: url(../img/starlink.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 main .background-home-testingFlight {
-  background-image: url(../img/Testflight.jpg);
   height: 96vh;
-  background-position: center center;
+  background-image: url(../img/Testflight.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: center;
-  background: #000;
-  text-transform: uppercase;
-}
 footer span {
   color: #fff;
 }
 footer a {
   color: #fff;
   text-decoration: none;
+}
+
+main .background-dragon {
+  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/dragon_feature.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 96vh;
+}
+
+/* estilos especificos falcon-heavy.html */
+main .background-falcon-heavy {
+  height: 96vh;
+  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/fh_feature.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main section .title {
@@ -109,7 +131,7 @@ main .background-falcon-9 {
   height: 96vh;
 }
 main .background-black {
-  background-color: black;
+  background-color: #000;
   height: 102vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -128,27 +150,6 @@ main .background-black .video {
   text-align: center;
 }
 
-main .background-dragon {
-  background: #000;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/dragon_feature.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 96vh;
-}
-
-/* estilos especificos falcon-heavy.html */
-main .background-falcon-heavy {
-  height: 96vh;
-  background: #000;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/fh_feature.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* estilos especificos star-ship.html */
 main .background-star-ship {
   height: 96vh;
@@ -158,6 +159,47 @@ main .background-star-ship {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .title > h1 {
+    font-size: 50px;
+    margin: auto;
+  }
+  .background-black {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  .video-description {
+    text-align: center;
+  }
+  .video > iframe {
+    width: 90%;
+  }
+  .news {
+    margin-left: 34px;
+  }
+}
+@media (max-width: 480px) {
+  .title > h1 {
+    font-size: 50px;
+    margin: auto;
+  }
+  .background-black {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  .video-description {
+    text-align: center;
+  }
+  .video > iframe {
+    width: 90%;
+  }
+  .news {
+    margin-left: 34px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

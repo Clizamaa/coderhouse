@@ -1,0 +1,58 @@
+// falcon-9.html
+main{
+    section{
+        .title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 450px;
+
+            h1{
+                font-size: 100px;
+                margin: auto;
+                color: $blanco;
+            }
+
+            p{
+                color: $blanco;
+            }
+        }
+    }
+    .background-falcon-9 {
+        background: $negro;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url(../img/f9_feature.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 96vh;
+    }
+
+    .background-black{
+        background-color: $negro;
+        height: 102vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+        .video-description{
+            text-align: center;
+
+            h1{
+                color: $blanco;
+            }
+
+            p{
+                color: $blanco;
+            }
+        }
+
+        .video{
+            text-align: center;
+        }
+    }
+}

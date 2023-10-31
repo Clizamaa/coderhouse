@@ -1,0 +1,16 @@
+/* estilos especificos star-ship.html */
+main{
+    .background-star-ship {
+        height: 96vh;
+        background: #000;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url(../img/Starhip_website.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

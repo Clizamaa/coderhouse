@@ -1,0 +1,53 @@
+@import '../utilities/extend.scss';
+@import '../utilities/mixin.scss';
+// index.html
+main {
+    section {
+      display: flex;
+      flex-direction: column-reverse;
+      .news {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 300px;
+        margin-left: 150px;
+  
+        p {
+          margin-top: 0;
+          color: #fff;
+        }
+  
+        h1 {
+          margin-top: 0;
+          color: #fff;
+        }
+  
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  
+    .background-home {
+      @include bg (url(../img/Crew_6_Desktop_9857f5c2f0.jpg), center, no-repeat, cover)
+    }
+  
+    .background-home-starlink {
+      @include bg (url(../img/starlink.jpg), center, no-repeat, cover)
+    }
+    .background-home-testingFlight {
+      @include bg (url(../img/Testflight.jpg), center, no-repeat, cover)
+    }
+  }
+  
+  footer{
+      @extend footer;
+  
+      span{
+          color: #fff;
+      }
+  
+      a{
+          color: #fff;
+          text-decoration: none;
+      }
+  }

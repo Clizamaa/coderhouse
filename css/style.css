@@ -165,7 +165,7 @@ footer a{
 
 /* estilos especificos dragon.html */
 
-.background-dragon {
+/* .background-dragon {
     background: #000;
     background: linear-gradient(
         rgba(0, 0, 0, 0.3),
@@ -177,11 +177,11 @@ footer a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 96vh;
-}
+} */
 
 /* estilos especificos falcon-heavy.html */
 
-.background-falcon-heavy {
+/* .background-falcon-heavy {
     height: 96vh;
     background: #000;
     background: linear-gradient(
@@ -193,11 +193,11 @@ footer a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 /* estilos especificos star-ship.html */
 
-.background-star-ship {
+/* .background-star-ship {
     height: 96vh;
     background: #000;
     background: linear-gradient(
@@ -209,9 +209,9 @@ footer a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
 
     .title>h1{
         font-size: 50px;
@@ -264,5 +264,5 @@ footer a{
 
 
 
-}
+} */
 

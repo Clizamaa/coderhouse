@@ -1,0 +1,16 @@
+// dragon.html
+main{
+    .background-dragon {
+        background: $negro;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url(../img/dragon_feature.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 96vh;
+    }
+}

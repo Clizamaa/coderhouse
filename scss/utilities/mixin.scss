@@ -1,0 +1,7 @@
+@mixin bg ( $url, $position, $repeat, $bgsize){
+    height: 96vh;
+      background-image: $url;
+      background-position: $position;
+      background-repeat: $repeat;
+      background-size: $bgsize;
+}

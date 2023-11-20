@@ -35,8 +35,10 @@ main{
     .background-black{
         background-color: $negro;
         height: 102vh;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
 
         .video-description{

@@ -189,6 +189,11 @@ main .background-star-ship {
   .title h1 {
     font-size: 50px !important;
     margin: auto;
+    text-align: center;
+  }
+
+  .title p{
+    text-align: center;
   }
   .background-black {
     display: flex;
